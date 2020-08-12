@@ -1,21 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## onTrack Test
 
-## Available Scripts
+I have developed the below functionality:
 
-In the project directory, you can run:
+1. On page load, I am loading first 20 books with the pagination enabled
+2. Once we select the specific pageNumber, I am fetching the data again by passing pageNumber to the api
+3. We also have pageNumber in the URL, So if we referesh it will still be with the same page results
+4. Also implemented the search functionality
+5. Modified the bootstrap original theme primary colour to `#1D7874`
+
+NOTE: Created a master branch with just readme file and pushed the code to develop branch. Raised a PR and shared in the mail
+
+## Running application
+
+1. Once you cloned the repository, Run the below command to install node modules
+
+### `npm i`
+
+2. Once node modules are installed successfully then run the below command to launch the application in http://localhost:3000 url from project directory
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Which will open the home page and it has above functionalities implemented
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+3. Running Unit Tests
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I have written unit tests using Jest and enzyme
+
+4. Production build
 
 ### `npm run build`
 
@@ -24,45 +37,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

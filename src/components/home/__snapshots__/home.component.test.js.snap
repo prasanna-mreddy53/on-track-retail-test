@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component tests should match snapshot 1`] = `
+<div
+  className="App"
+>
+  <Header
+    searchBooks={[Function]}
+  />
+  <div>
+    Loading...
+  </div>
+  <content>
+    <Row
+      className="m-0"
+      noGutters={false}
+    />
+    <PaginationComponent
+      activePage={1}
+      currentPage={1}
+      getPageNumber={[Function]}
+      itemsPerPage={20}
+      nextPage={[Function]}
+      prevPage={[Function]}
+      totalBooks={0}
+    />
+  </content>
+</div>
+`;
